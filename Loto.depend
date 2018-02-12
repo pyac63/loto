@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1518466840 source:c:\users\aaa\documents\rainmeter\skins\droptop\folders\customfolder4\c++\loto\main.cpp
+	<iostream>
+	<random>
+	<ctime>
+	"def.h"
+
+1518466765 c:\users\aaa\documents\rainmeter\skins\droptop\folders\customfolder4\c++\loto\def.h
+	<iostream>
+
+1518466862 source:c:\users\aaa\documents\rainmeter\skins\droptop\folders\customfolder4\c++\loto\def.cpp
+	<iostream>
+	<random>
+	<ctime>
+
