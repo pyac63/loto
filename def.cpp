@@ -25,3 +25,47 @@ int choose()
     return a;
 }
 
+int getBet(int total)
+{
+    while (1)
+    {
+        cout << "How much do you want to bet ?\n";
+        int x;
+        cin >> x;
+        if (x > total)
+        {
+            cout << "You don't have enough money !\n";
+        }
+
+        else if (x <= 0)
+        {
+            cout << "You have to bet something !\n";
+        }
+
+        else
+        {
+            cout << "You will bet " << x << " $.\n";
+            return x;
+        }
+
+    }
+
+
+}
+
+int cashReturn (int bet, int com)
+{
+    if (com == 0)
+    {
+        cout << "Sorry, you have no good numbers...\n";
+        return bet;
+    }
+
+    else
+    {
+        cout << "Congratulations! You guessed " << com << " good numbers!\n";
+        int cash = (bet*com)*com;
+        cout << "You won " << cash << " $!\n";
+        return cash;
+    }
+}
