@@ -12,9 +12,9 @@ int main()
     int number = 6;
     int money = 100;
 
-    cout << "Welcome to the Loto Game!\n";
-    cout << "You have 100$ to spend.\n";
-    cout << "Choose your six lucky numbers!\n";
+    cout << "*\tWelcome to the Loto Game!\t*\n";
+    cout << "*\tYou have 100$ to spend.\t\t*\n";
+    cout << "*\tChoose your six lucky numbers!\t*\n\n";
 
 
     while (1)

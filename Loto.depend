@@ -13,3 +13,17 @@
 	<random>
 	<ctime>
 
+1518505126 source:c:\antoine\code\loto\main.cpp
+	<iostream>
+	<random>
+	<ctime>
+	"def.h"
+
+1518505126 c:\antoine\code\loto\def.h
+	<iostream>
+
+1518694680 source:c:\antoine\code\loto\def.cpp
+	<iostream>
+	<random>
+	<ctime>
+

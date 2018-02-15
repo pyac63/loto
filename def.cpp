@@ -29,7 +29,7 @@ int getBet(int total)
 {
     while (1)
     {
-        cout << "How much do you want to bet ?\n";
+        cout << "How much do you want to bet ? (" << total << "$)\n";
         int x;
         cin >> x;
         if (x > total)
